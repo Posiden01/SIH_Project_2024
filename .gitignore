@@ -1,0 +1,10 @@
+# Ignore node_modules if you're using Node.js
+node_modules/
+# Ignore logs
+*.log
+# Ignore temporary files
+*.tmp
+*.bak
+# Ignore IDE/editor specific files
+.vscode/
+.DS_Store
