@@ -1,0 +1,75 @@
+/* App-level styles */
+.App {
+  text-align: center;
+  background-color: #f8d69f; /* Light background for the whole app */
+}
+
+/* Logo style */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animation for logo when not reduced motion preference */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header styles */
+.App-header {
+  background-color: #f4e1af; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgba(0, 0, 0, 0.948);
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styles */
+.App-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+/* Style for the text block in the section */
+.App-section-text {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/* Style for images in the section */
+.App-section img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Footer styling */
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Keyframe animation for spinning logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
