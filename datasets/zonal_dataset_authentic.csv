@@ -1,0 +1,21 @@
+zone_id,zone_name,land_type,area_size,legal_status,unauthorized_rules,latitude_range,longitude_range
+RES31B,Residential Block 31B,Industrial,6.87,Restricted,No construction without safety clearance.,28.614697-28.65363,77.118631-77.165417
+RES15B,Residential Block 15B,Industrial,8.13,Restricted,No construction without safety clearance.,28.196406-28.241789,77.447898-77.496556
+IND19C,Industrial Area 19C,Industrial,10.19,Restricted,No construction without safety clearance.,28.387486-28.415436,77.172965-77.207061
+IND50C,Industrial Area 50C,Residential,6.17,Fully Legal,No commercial buildings allowed.,28.617138-28.66459,77.686048-77.718302
+SEC17C,Sector 17C,Commercial,3.49,Fully Legal,Construction allowed only with prior approval.,28.470956-28.511062,77.010354-77.042906
+IND30C,Industrial Area 30C,Residential,9.58,Fully Legal,No commercial buildings allowed.,28.624847-28.654986,77.760325-77.799371
+RES3A,Residential Block 3A,Residential,4.38,Fully Legal,No commercial buildings allowed.,28.678991-28.727474,77.242689-77.276665
+RES1B,Residential Block 1B,Residential,8.28,Fully Legal,No commercial buildings allowed.,28.582639-28.609429,77.492694-77.539439
+SEC11,Sector 11,Residential,7.87,Fully Legal,No commercial buildings allowed.,28.439968-28.467935,77.641167-77.680267
+IND36,Industrial Area 36,Industrial,16.31,Mixed,No construction without safety clearance.,28.116718-28.138409,77.743019-77.763241
+SEC20A,Sector 20A,Agricultural,35.16,Mixed,Strictly no non-agricultural construction.,28.617811-28.638996,77.198618-77.244557
+IND48C,Industrial Area 48C,Commercial,2.26,Fully Legal,Construction allowed only with prior approval.,28.768396-28.78973,77.175157-77.195298
+SEC33B,Sector 33B,Agricultural,47.57,Mixed,Strictly no non-agricultural construction.,28.160173-28.208464,77.716389-77.752037
+SEC10,Sector 10,Agricultural,34.29,Mixed,Strictly no non-agricultural construction.,28.433426-28.472534,77.271999-77.30898
+RES11,Residential Block 11,Industrial,9.58,Restricted,No construction without safety clearance.,28.19256-28.222406,77.527366-77.569051
+IND14C,Industrial Area 14C,Commercial,2.42,Fully Legal,Construction allowed only with prior approval.,28.219071-28.257605,77.684804-77.727378
+RES15A,Residential Block 15A,Commercial,1.67,Fully Legal,Construction allowed only with prior approval.,28.367626-28.391432,77.647624-77.690297
+SEC27,Sector 27,Commercial,2.11,Fully Legal,Construction allowed only with prior approval.,28.352576-28.376622,77.325788-77.347306
+SEC8C,Sector 8C,Agricultural,32.6,Mixed,Strictly no non-agricultural construction.,28.657363-28.705181,77.10877-77.134625
+RES37B,Residential Block 37B,Residential,6.93,Fully Legal,No commercial buildings allowed.,28.758658-28.79863,77.067516-77.111376
