@@ -19,7 +19,7 @@ function Home() {
           </Col>
           <Col md={6}>
             <img
-              src="https://via.placeholder.com/500x300"
+              src="https:"
               alt="Construction Monitoring"
               className="img-fluid"
             />
