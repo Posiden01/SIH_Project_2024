@@ -73,3 +73,17 @@
     transform: rotate(360deg);
   }
 }
+
+.news-feed-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.news-cards {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.news-cards .card {
+  display: inline-block;
+}

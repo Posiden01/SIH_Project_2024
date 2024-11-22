@@ -19,7 +19,7 @@ function Home() {
           </Col>
           <Col md={6}>
             <img
-              src="https://via.placeholder.com/500x300"
+              src="https://picsum.photos/500/300"
               alt="Construction Monitoring"
               className="img-fluid"
             />
@@ -33,7 +33,7 @@ function Home() {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="https://via.placeholder.com/800x300"
+                  src="https://picsum.photos/800/300"
                   alt="Slide 1"
                 />
                 <Carousel.Caption>
@@ -44,7 +44,7 @@ function Home() {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="https://via.placeholder.com/800x300"
+                  src="https://picsum.photos/800/300"
                   alt="Slide 2"
                 />
                 <Carousel.Caption>
@@ -55,7 +55,7 @@ function Home() {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="https://via.placeholder.com/800x300"
+                  src="https://picsum.photos/800/300"
                   alt="Slide 3"
                 />
                 <Carousel.Caption>
@@ -126,7 +126,7 @@ function Home() {
           </Col>
           <Col md={6}>
             <img
-              src="https://via.placeholder.com/500x300"
+              src="https://picsum.photos/500/300"
               alt="About the Platform"
               className="img-fluid"
             />
@@ -136,6 +136,79 @@ function Home() {
         {/* Testimonials Section */}
         <Row className="mt-5">
           <Col>
+            <Row className="my-5">
+              <Col md={4} className="text-center">
+                <h2>120+</h2>
+                <p>Unauthorized Constructions Detected</p>
+              </Col>
+              <Col md={4} className="text-center">
+                <h2>95%</h2>
+                <p>Reports Resolved</p>
+              </Col>
+              <Col md={4} className="text-center">
+                <h2>500+</h2>
+                <p>Active Users</p>
+              </Col>
+            </Row>
+
+            <Row className="my-5">
+              <Col>
+                <h3>Latest News</h3>
+                <Row>
+                  <div className='news-feed-container'>
+                    <div className='news-cards'>
+                      <Card>
+                        <Card.Img variant="top" src="https://picsum.photos/300/200" />
+                        <Card.Body>
+                          <Card.Title>New Construction Laws Enacted</Card.Title>
+                          <Card.Text>
+                            Recent updates on urban planning regulations to prevent unauthorized construction.
+                          </Card.Text>
+                          <Button variant="primary" href="/news">Read More</Button>
+                        </Card.Body>
+                      </Card>
+                      <Card>
+                        <Card.Img variant="top" src="https://picsum.photos/300/200" />
+                        <Card.Body>
+                          <Card.Title>Drone Technology Enhancing Monitoring</Card.Title>
+                          <Card.Text>
+                            Explore how drones are transforming urban planning and enforcement of construction laws.
+                          </Card.Text>
+                          <Button variant="primary" href="/news/drone-tech">
+                            Read More
+                          </Button>
+                        </Card.Body>
+                      </Card>
+                      <Card>
+                        <Card.Img variant="top" src="https://picsum.photos/300/200?grayscale" />
+                        <Card.Body>
+                          <Card.Title>Urban Development Policies 2024</Card.Title>
+                          <Card.Text>
+                            Insights into the latest policies aimed at regulating urban growth and unauthorized structures.
+                          </Card.Text>
+                          <Button variant="primary" href="/news/urban-policies">
+                            Read More
+                          </Button>
+                        </Card.Body>
+                      </Card>
+                      <Card>
+                        <Card.Img variant="top" src="https://picsum.photos/300/200/?blur" />
+                        <Card.Body>
+                          <Card.Title>Community Efforts in Monitoring</Card.Title>
+                          <Card.Text>
+                            Learn how citizens are coming together to report and resolve unauthorized construction issues.
+                          </Card.Text>
+                          <Button variant="primary" href="/news/community-efforts">
+                            Read More
+                          </Button>
+                        </Card.Body>
+                      </Card>
+                    </div>
+                  </div>
+                </Row>
+              </Col>
+            </Row>
+
             <h3 className="text-center mb-4">What People Say</h3>
             <Row>
               <Col md={4} className="mb-4">
