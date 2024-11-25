@@ -87,3 +87,8 @@
 .news-cards .card {
   display: inline-block;
 }
+
+.cards-text {
+  display: flex;
+  flex-wrap: nowrap;
+}
